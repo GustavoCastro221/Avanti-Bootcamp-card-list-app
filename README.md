@@ -1,8 +1,19 @@
-# React + Vite
+# Avanti-Bootcamp-card-list-app
+Desafio proposto no Bootcamp Avanti do Instituto Atlântico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Como executar o projeto
+- Certifique-se de ter o Node.js instalado.
+- Instale as dependências com o comando: npm install
+- Então realize o seguinte comando para iniciar o projeto: npm run dev
 
-Currently, two official plugins are available:
+# Utilização de React Hooks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## useState
+- No componente Card, o estado isHovered é gerenciado usando useState para controlar o efeito de hover.
+
+## useEffect
+- No componente CardProvider, useEffect é usado para buscar dados (ou mock data) e atualizar o estado cards com base nesses dados.
+
+## useContext
+- No componente CardList, useContext é usado para acessar os dados do contexto do CardProvider.
+
